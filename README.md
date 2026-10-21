@@ -7,7 +7,8 @@ read-only "Translate with Nét" popover for selected text.
 Install with Homebrew:
 
 ```sh
-brew install --cask --no-quarantine vodongnhut/net/net
+brew install --cask vodongnhut/net/net
+xattr -dr com.apple.quarantine "/Applications/Nét.app"
 ```
 
 Or download the ZIP from the latest release, unzip, move `Nét.app` to
